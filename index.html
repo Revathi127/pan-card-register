@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		 <link href="css/style.css" rel="stylesheet">
+		 
+		 </head>
+<body>
+<div class="container">
+
+ <img src="img/header.jpg" style="margin-left: 129px;
+    width: 1044px;
+    height: 298px;" >
+
+<div class="col-md-6">
+	
+<form class="modal-content" method="post" action="register.php">
+    <div class="container">
+      <h1>Register</h1>
+      <p>Please fill in this form to create your PAN Card.</p>
+      <hr>
+      <label><b>Name</b></label>
+      <input type="text" placeholder="Enter your name" name="name" required>
+
+      <label><b>Father's Name</b></label>
+      <input type="text" placeholder="Enter your father's name" name="fname" required>
+
+      <label><b>Mobile Number</b></label>
+      <input type="text" placeholder="Enter your mobile number" name="number" required>
+	  
+	  <label><b>Emai Id</b></label>
+      <input type="text" placeholder="Enter your email-id" name="email" required>
+	  
+	  <label><b>Anual Income</b></label>
+      <input type="text" placeholder="Enter your annual income" name="income" required>
+      
+	  <label class="pull-left"><b>Permenent Address</b></label>
+      <textarea  name="message" ></textarea>
+	  <div class="pull-right">
+	  <label ><b>Date of Birth</b></label>
+	  
+      <input  type="date" placeholder="Enter your date of birth" name="dob" required><br>
+	  </div><br>
+	  <label><b>Country</b></label>
+      <input type="text" placeholder="Enter your country name" name="country" required>
+	  
+	  <label><b>Zip code</b></label>
+      <input type="text" placeholder="Enter your code" name="code" required>
+	   <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" name="submit" class="signupbtn">submit</button>
+      </div>
+    </div>
+  </form>
+
+</div>
+</div>
+
+
+</body>
+</html>
